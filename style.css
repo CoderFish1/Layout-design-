@@ -1,0 +1,88 @@
+   .container {
+    height: 945px;
+    width: 834px;
+    border: 2px solid black;
+    margin: auto;
+    gap: 2vw;
+    position: relative;
+    background-color: grey;
+
+}
+
+ul {
+    display: flex;
+    gap: 10%;
+
+}
+
+ul li {
+    list-style: none;
+    border: 3px solid rgb(57, 26, 26);
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.nav {
+    border: 2px solid rgb(171, 156, 223);
+    background-color: lightskyblue;
+}
+
+.sec {
+    height: 50%;
+    width: 90%;
+    border: 2px solid rgb(215, 138, 138);
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(244, 104, 104);
+}
+.inner1 {
+    height: 60%;
+    width: 50%;
+    border: 2px solid rgb(230, 170, 170);
+    margin-top: 22px;
+    margin-left: 45px;
+    background-color: rgb(216, 200, 180);
+}
+
+.inner2 {
+    height: 60%;
+    width: 50%;
+    border: 2px solid rgb(140, 135, 212);
+    margin-top: 22px;
+    margin-right: 45px;
+    background-color: rgb(139, 65, 209);
+}
+.art{
+    height: 24%;
+    width: 75%;
+    border: 2px solid rgb(255, 141, 141);
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(181, 208, 212);
+}
+.foot{
+    height: 8%;
+    width: 100%;
+    border: 2px solid rgb(131, 172, 222);
+    margin-top: 84px;
+    background-color: aqua;
+}
+.logo {
+    height: 3%;
+    width: 3.5%;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    position: sticky;
+    bottom: 19%;
+    left: 76%;
+}
